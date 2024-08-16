@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FBAD29CB2C6E39BF001D6DC6 /* Day13_RegisterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAD29CA2C6E39BF001D6DC6 /* Day13_RegisterApp.swift */; };
+		FBAD29CB2C6E39BF001D6DC6 /* RegisterandLoginApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAD29CA2C6E39BF001D6DC6 /* RegisterandLoginApp.swift */; };
 		FBAD29CD2C6E39BF001D6DC6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAD29CC2C6E39BF001D6DC6 /* ContentView.swift */; };
 		FBAD29CF2C6E39C1001D6DC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBAD29CE2C6E39C1001D6DC6 /* Assets.xcassets */; };
 		FBAD29D22C6E39C1001D6DC6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBAD29D12C6E39C1001D6DC6 /* Preview Assets.xcassets */; };
@@ -22,8 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FBAD29C72C6E39BF001D6DC6 /* Day13-Register.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Day13-Register.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FBAD29CA2C6E39BF001D6DC6 /* Day13_RegisterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day13_RegisterApp.swift; sourceTree = "<group>"; };
+		FBAD29C72C6E39BF001D6DC6 /* RegisterandLoginApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RegisterandLoginApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBAD29CA2C6E39BF001D6DC6 /* RegisterandLoginApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterandLoginApp.swift; sourceTree = "<group>"; };
 		FBAD29CC2C6E39BF001D6DC6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FBAD29CE2C6E39C1001D6DC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FBAD29D12C6E39C1001D6DC6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -60,7 +60,7 @@
 		FBAD29C82C6E39BF001D6DC6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FBAD29C72C6E39BF001D6DC6 /* Day13-Register.app */,
+				FBAD29C72C6E39BF001D6DC6 /* RegisterandLoginApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -68,9 +68,13 @@
 		FBAD29C92C6E39BF001D6DC6 /* Day13-Register */ = {
 			isa = PBXGroup;
 			children = (
+				FBAD2A142C6FC29C001D6DC6 /* Model */,
+				FBAD2A132C6FC293001D6DC6 /* Core */,
+				FBAD2A122C6FC28A001D6DC6 /* Components */,
+				FBAD2A112C6FC285001D6DC6 /* App */,
 				FBAD29EE2C6E412B001D6DC6 /* Info.plist */,
 				FBAD29DF2C6E40B9001D6DC6 /* Fonts */,
-				FBAD29CA2C6E39BF001D6DC6 /* Day13_RegisterApp.swift */,
+				FBAD29CA2C6E39BF001D6DC6 /* RegisterandLoginApp.swift */,
 				FBAD29CC2C6E39BF001D6DC6 /* ContentView.swift */,
 				FBAD29CE2C6E39C1001D6DC6 /* Assets.xcassets */,
 				FBAD29D02C6E39C1001D6DC6 /* Preview Content */,
@@ -101,12 +105,40 @@
 			path = Fonts;
 			sourceTree = "<group>";
 		};
+		FBAD2A112C6FC285001D6DC6 /* App */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		FBAD2A122C6FC28A001D6DC6 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		FBAD2A132C6FC293001D6DC6 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		FBAD2A142C6FC29C001D6DC6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FBAD29C62C6E39BF001D6DC6 /* Day13-Register */ = {
+		FBAD29C62C6E39BF001D6DC6 /* RegisterandLoginApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FBAD29D52C6E39C1001D6DC6 /* Build configuration list for PBXNativeTarget "Day13-Register" */;
+			buildConfigurationList = FBAD29D52C6E39C1001D6DC6 /* Build configuration list for PBXNativeTarget "RegisterandLoginApp" */;
 			buildPhases = (
 				FBAD29C32C6E39BF001D6DC6 /* Sources */,
 				FBAD29C42C6E39BF001D6DC6 /* Frameworks */,
@@ -116,9 +148,9 @@
 			);
 			dependencies = (
 			);
-			name = "Day13-Register";
+			name = RegisterandLoginApp;
 			productName = "Day13-Register";
-			productReference = FBAD29C72C6E39BF001D6DC6 /* Day13-Register.app */;
+			productReference = FBAD29C72C6E39BF001D6DC6 /* RegisterandLoginApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -136,7 +168,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FBAD29C22C6E39BF001D6DC6 /* Build configuration list for PBXProject "Day13-Register" */;
+			buildConfigurationList = FBAD29C22C6E39BF001D6DC6 /* Build configuration list for PBXProject "RegisterandLoginApp" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -149,7 +181,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FBAD29C62C6E39BF001D6DC6 /* Day13-Register */,
+				FBAD29C62C6E39BF001D6DC6 /* RegisterandLoginApp */,
 			);
 		};
 /* End PBXProject section */
@@ -180,7 +212,7 @@
 			files = (
 				FBAD29CD2C6E39BF001D6DC6 /* ContentView.swift in Sources */,
 				FBAD29F02C6E5B4C001D6DC6 /* RegistrationViewModel.swift in Sources */,
-				FBAD29CB2C6E39BF001D6DC6 /* Day13_RegisterApp.swift in Sources */,
+				FBAD29CB2C6E39BF001D6DC6 /* RegisterandLoginApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,7 +401,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FBAD29C22C6E39BF001D6DC6 /* Build configuration list for PBXProject "Day13-Register" */ = {
+		FBAD29C22C6E39BF001D6DC6 /* Build configuration list for PBXProject "RegisterandLoginApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FBAD29D32C6E39C1001D6DC6 /* Debug */,
@@ -378,7 +410,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FBAD29D52C6E39C1001D6DC6 /* Build configuration list for PBXNativeTarget "Day13-Register" */ = {
+		FBAD29D52C6E39C1001D6DC6 /* Build configuration list for PBXNativeTarget "RegisterandLoginApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FBAD29D62C6E39C1001D6DC6 /* Debug */,
